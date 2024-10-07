@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassetta delle lettere</title>
+    <link rel="stylesheet" href="cassetta-chiusa.css" id="closed-box-css">
+    <link rel="stylesheet" href="cassetta-aperta.css" id="open-on-click" disabled>
+    <audio autoplay loop volume="0.5">
+        <source src="music/falling-music.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+<div class="sparkles"></div>
+<div class="container"></div>
+<div class="mailbox">
+    <img src="img\letter.png" alt="Love letter" class="loveletter" id="love-letter-image" onclick="mostraRiquadro()">
+    <img src="img\grass.png" alt="grass" class="grass" id="grass">
+    <div class="square" onclick="apriCassetta()"></div>
+    <div class="circle"></div>
+    <div id="pulsingheart" onclick="chiudiCassetta()"></div>
+    <div class="thin-rectangle"></div>
+    <div class="thin-rectangle-porta"></div>
+</div>
+<div class="rectangle"></div>
+<div id="valentine-box" class="valentine-box hidden" onclick="chiudiRiquadro()">
+    <div class="content">
+        <h4>Happy Birthday,</h4> <br><br>
+        To the Gold Digger who doesn't need to dig because, let's be honest, you've already got that Khandaani Raeesi in you! 😅 But still searching for tall, rich, six-pack wale ladke, right? Matlab, mere zero-pack aur middle-class life ke saath, aapko Impress karna hi ek bohot bada achievement hai! Can you believe the power of my rizz? 😂
+    </br>
+        <br><br>
+        We’ve had quite the rollercoaster, haven’t we? From those endless Day & Nights, Calling & Chatting about everything and nothing. Meri Mummy k gaaon jaane par you taught me to cook that chila jo ki aaj bhi Mummy yaad karti hai ki usne sikhaya tha... to you patiently listening to my Zoom meetings while giving ideas jisse Seniors mujhe Iintelligent aur Creative smjhte the... and aapka mujhse vo fast food khane ki aadat chhuda dena 🍔 Uff, I still owe you for that! Seriously, thank you for saving me from that, although mere taste buds aapko kabhi kabhi yaad karte hain. 😂
+    </br>
+    <br><br>
+        But you know what? The Bollywood moment of my life was when you called me at 9PM, saying ‘Mai kho gayi hu yaha Metro Station pr, please mujhe le jaao ghar.’ And mai, Race 3 k Salman Khan ki tarah, bike lekar pahuch gaya! (Haan haan, bas drop karna tha but still😆). Poore raaste, Poore raaste, I kept looking in the side mirror, hoping for a moment of eye contact, just like I was living out some slow-motion scene from a movie. Mujhe lag raha tha abhi koi romantic background music chalu hoga aur kahi se CUT ki awaaz aayegi...🎶 Honestly, I had a million things to say, but all the words vanished like my chances of winning an argument with you. 😅<br>
+        <br><br>
+        Wo do-teen mahine ka No-Contact phase, and then that unexpected Surprise Call, it was like a plot twist in our own story, and I’ll never forget that ride. Even though we agreed to keep things TAG-LESS, we’ve built something special in our own weird way. (that moment might not anything for You, but for me, it was whole damn everything). TAG-LESS-SHIP isn't bad for a guy with zero packs, huh? 😉 You’re my gold-digging guru! You were the one who taught me so many Life Lessons I am Grateful for those times and Memories we shared together, haan haan VIRTUALLY hi sahi...<br>
+        <br><br>
+        Anyway, back to your day. May your year be filled with laughter, success, and of course, a few more ‘Kho gayi hu, lene aa jaao’ moments! You’re one of a kind, and I hope your birthday is as fabulous as you are (even if you still won’t meet me!). 😏<br>
+        <br><br>
+        Keep chasing those dreams, Miss Gold Rolls-Royce — you're not the typical Gold Digger; you’re the one who digs Gold to build your own empire! 💰👑 <br>
+        <h4>TAG-LESS (not-just-friend), Kushagra will keep stalking... See yaa someday???...</h4>
+        <br><br>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
